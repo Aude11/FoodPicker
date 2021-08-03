@@ -1,0 +1,42 @@
+<%- include('partials/header'); -%>
+<%- include('partials/nav'); -%>
+
+<section id="login">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="sign-form">
+          <form action="/log-in" method="post" class="form-frame">
+            <img class="logo-sign" src="images/serving-dish.png" alt="serving-dish-icon">
+            <div class="form">
+              <h3 class="">Food Picker</h3>
+              <h4>Log In</h4>
+              <input type="text" id="userNameLogInput" name="usernameLog" class="form-control" placeholder="username" required="required">
+              <input type="password" id="passwordLogInput" name="passwordLog" class="form-control bottom" placeholder="password" required="required">
+              <button class="btn btn-sign btn-outline-light" type="submit">Log In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+        <div class="sign-form">
+          <form action="/sign-in" method="post" class="form-frame">
+            <img class="logo-sign" src="images/serving-dish.png" alt="serving-dish-icon">
+            <div class="form">
+              <h3 class="">Food Picker</h3>
+              <h4>Sign In</h4>
+              <input type="text" id="userNameInput" name="username" class="form-control" placeholder="username" required="required">
+              <input type="password" id="passwordInput" name="password" class="form-control bottom" placeholder="password" required="required">
+              <button class="btn btn-sign btn-outline-light" type="submit">Sign in</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<%- include('partials/footer'); -%>
