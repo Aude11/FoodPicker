@@ -62,7 +62,6 @@ To read more check this post from Coda Hale: https://codahale.com/how-to-safely-
 
 Icons made by [Freepik](https://www.freepik.com) Freepik from [Flaticon](https://www.flaticon.com)  www.flaticon.com
 
-##Status
 
 ### ToDo:
 
