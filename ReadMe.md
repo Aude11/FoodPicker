@@ -32,13 +32,14 @@ The user id and password with city and preference are save on MongoDB database.
 node app.js
 ```
 
-## Set up
+**Set up**
 
 ```
 npm mongoose
 ```
 
 ## Security
+
 The password will be encrypter with moogose-encrypter and bcrypt.
 For security reason please DO NOT choose a password that your are using for sensitive content
 
