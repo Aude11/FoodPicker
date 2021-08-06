@@ -7,6 +7,8 @@ User can register to the website and save the city where they are or live and se
 
 The website has been deployed on Heroku.
 
+https://salty-mountain-49124.herokuapp.com
+
 ## Technologies
 
 * Front-end :
